@@ -223,7 +223,7 @@ import TcRnTypes
   (Ct, CtEvidence (..), CtLoc, TcEvDest (..), ctEvidence, ctEvLoc, ctEvPred,
    ctLoc, ctLocSpan, isGiven, isWanted, mkNonCanonical, setCtLoc, setCtLocSpan,
    isWantedCt)
-import TcType (typeKind)
+import GhcPlugins (typeKind)
 import Type
   (EqRel (NomEq), PredTree (EqPred), classifyPredType, getEqPredTys, mkClassPred,
    mkPrimEqPred)
